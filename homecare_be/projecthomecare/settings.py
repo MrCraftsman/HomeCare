@@ -86,8 +86,12 @@ WSGI_APPLICATION = 'projecthomecare.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dc5o4ltl76ui7e',
+        'USER': 'dvizlabjujaulq',
+        'PASSWORD': '5be917a56f793d6c3d8990ec07c864df2e69d4dd7fd31030adad9fa08bf05a8a',
+        'HOST': 'ec2-54-91-223-99.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
