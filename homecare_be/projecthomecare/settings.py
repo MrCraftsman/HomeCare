@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework'
-    'homecareApp'
+    'rest_framework',
+    'homecareApp',
 ]
 
 MIDDLEWARE = [
